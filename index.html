@@ -4,17 +4,23 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="Author" content="Shiva Kanth">
+	<meta property="og:title" content="Typing Speed Counter" >
+    <meta property="og:type" content="website" >
+    <meta property="og:image" content="https://cdn4.iconfinder.com/data/icons/program-coding-icons-1/200/vector_493_18-512.png">
+    <meta property="og:description" content="Measure how fast you can type easily and quickly.">
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
-	<title></title>
+	<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+	<title>Typing Speed Counter</title>
 </head>
 <body>
 	<h1>Typing Speed Counter</h1>
-	<h3 id="sampleText">Welcome to type testing. Test your typing speed today.</h3>
+	<h3>Welcome to type testing. Test your typing speed today.</h3>
 	<h4>Type the below text. Once you are done , your result will be displayed.</h4>
 	<p > </p>
-	<h6 id="expect"> </h6>
+	
 	<input type="text" class="btn-blue" id="testing"></input>
-
+	<p></p>
+	<input type="reset" value="Try Again" onClick="window.location.reload()" id="rst">
 
 	<script src="scripts/main.js"></script>
 </body>
